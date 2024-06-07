@@ -13,7 +13,7 @@
 }
 a{
     text-decoration: none;
-    
+    color: black;
     
 
 }
@@ -195,7 +195,21 @@ h3{
     justify-content: space-between;
     align-items: center;
     padding: 2%;
-    border: 1px solid rgb(140, 221, 224);
+    border: 1px solid rgb(62, 132, 134);
     border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(33, 35, 37, 0.7); 
 
+}
+
+.learn-btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 1%;
+    border-radius: 5px;
+    background-color: rgb(0, 217, 255);
+    border: 1px solid rgb(69, 178, 218);
+}
+
+.learn-btn:hover{
+    box-shadow: 0px 4px 15px rgba(129, 186, 233, 0.7); 
 }
