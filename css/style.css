@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+a{
+    text-decoration: none;
+    
+    
+
+}
+nav{
+    height: 90px;
+    background-color: #ffffffdd;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.navWrap{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
+}
+.navWrap a{
+    padding: 5px;
+    font-size: 22px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    
+    margin-left: 30px;
+}
+
+
+.navWrap a:hover{
+    background-color:rgba(234, 239, 64, 0.335);
+    height: 20px;
+    width: 60px;
+    text-decoration: underline ;
+}
+
+
+
+
+/* Hero Section */
+.hero-section{
+    background: linear-gradient(rgba(0, 0, 0, 0.542),rgba(0, 0, 0, 0.633)), url(/img/pexels-luis-gomes-166706-546819.jpg) no-repeat center / cover;
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-bottom: 5%;
+}
+.hero-content{
+    width: 900px;
+    
+}
+
+.hero-title{
+    font-size: 45px;
+    color: white;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.hero-para{
+    color: white;
+    font-size: 20px;
+    padding: 6px;
+    margin-bottom: 10px;
+}
+.hero-btn{
+    padding: 5px;
+    width: 220px;
+    height: 45px;
+    background-color: yellow;
+    border-radius: 5px;
+}
+.hero-btn:hover{
+    
+    box-shadow: 0px 4px 15px rgba(233, 219, 129, 0.7); 
+}
+
+.hero-btn a{
+    font-size: 16px;
+}
+
+
+
+
+
+/* Details Section */
+.details{
+    padding: 0 10%;
+}
+.details-title{
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.details-pic{
+    height: 400px;
+    width: 400px;
+    margin-bottom: 2%;
+    border-radius: 15px;
+    
+}
+
+.html-details, .css-details{
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+
+}
+
+.right{
+    padding: 5%;
+}
+.left{
+    padding: 5%;
+}
