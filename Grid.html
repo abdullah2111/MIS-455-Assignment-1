@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Help</title>
+    <title>Css Grid</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <h1>This is Help page</h1>
+<body class="grid-page">
+     <!-- Navbar Start -->
+     <nav>
+        <div class="navWrap">
+            <div class="logo">
+                <h1>MIS 455</h1>
+            </div>
+            <div class="navItems">
+                <a class="navItem" href="index.html" >Home</a>
+            <a class="navItem" href="about.html" >About</a>
+            <a class="navItem" href="Flex.html" >Flex</a>
+            <a class="navItem" href="Grid.html" >Grid</a>
+            <a class="navItem" href="gallary.html" >Gallery</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <h1 style="margin-top: 50px; " class="details-title">We will learn about Css Grid</h1>
+    <Section class="intro">
+        <img src="./img/grid.png" alt="" class="details-pic">
+        <div class="intro-details">
+            <p>The CSS grid layout module excels at dividing a page into major regions or defining the relationship in terms of size, position, and layer, between parts of a control built from HTML primitives. Like tables, grid layout enables an author to align elements into columns and rows. However, many more layouts are either possible or easier with CSS grid than they were with tables. For example, a grid container's child elements could position themselves so they actually overlap and layer, similar to CSS positioned elements.
+            </p>
+            <button class="flex-btn"><a href="https://www.joshwcomeau.com/css/interactive-guide-to-grid/" target="_blank">Learn More</a></button>
+        </div>
+    </Section>
 </body>
 </html>

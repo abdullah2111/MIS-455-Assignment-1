@@ -1,15 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+*,a,p,h1,button{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 
+}
+
+.flexbox-page p, .flexbox-page button{
+    font-family: "Roboto Slab", serif;
+   font-weight: 400;
+   font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
+}
+.grid-page p, .grid-page button{
+    font-family: "Roboto Slab", serif;
+  
+   font-weight: 400;
+   font-style: normal;
+    font-size: 22px;
+    line-height: 30px;
 }
 a{
     text-decoration: none;
@@ -115,7 +131,7 @@ h3{
     text-align: center;
     font-size: 40px;
     font-weight: 400;
-    font-style: normal;
+    
 }
 
 .details-pic{
@@ -150,7 +166,7 @@ h3{
     padding: 5%;
 }
 
-.right-details p{
+.right-details p, .aboutme-details p{
     font-size: 22px;
 }
 
@@ -163,19 +179,9 @@ h3{
 .aboutme-details{
     padding: 5%;
 }
-.aboutme-details p{
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 22px;
-    line-height: 30px;
-}
+
 .aboutme-details h1{
-    font-family: "Roboto Slab", serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
+    
     margin-bottom: 2%;
 }
 
@@ -213,3 +219,63 @@ h3{
 .learn-btn:hover{
     box-shadow: 0px 4px 15px rgba(129, 186, 233, 0.7); 
 }
+
+/* Intro section */
+.intro{
+    padding: 5% 10% 2% 10%;
+    display: flex;
+
+}
+.intro-details{
+    padding: 5%;
+    
+}
+
+
+/* flex page */
+
+.flex-directtion{
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.flex-p{
+    padding: 0 20%;
+    margin-bottom: 2%;
+}
+.flex-pic{
+    height: 400px;
+    width: 500px;
+}
+
+span{
+    color: green;
+}
+
+.pic-cont{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pic-cont img{
+    width: 500px;
+    height: 400px;
+}
+
+.flex-btn{
+        width: 140px;
+        height: 35px;
+        margin-top: 1%;
+        border-radius: 5px;
+        background-color: rgb(0, 217, 255);
+        border: 1px solid rgb(69, 178, 218);
+    }
+    
+.flex-btn:hover{
+        box-shadow: 0px 4px 15px rgba(129, 186, 233, 0.7); 
+    }
