@@ -65,7 +65,7 @@ h3{
     align-items: center;
     justify-content: center;
     text-align: left;
-    margin-bottom: 5%;
+    
 }
 .hero-content{
     width: 900px;
@@ -138,4 +138,43 @@ h3{
 }
 .left{
     padding: 5%;
+}
+
+
+
+/* About me page */
+.about-me{
+    padding: 5% 10%;
+    background-color: rgb(216, 215, 250);
+}
+.my-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mypic{
+    height: 500px;
+    width: 500px;
+}
+.right-details{
+    padding: 5%;
+}
+
+.right-details p{
+    font-size: 22px;
+}
+
+.skills{
+    padding: 5% 10%;
+    background-color: rgb(250, 215, 228);
+}
+
+.aboutme-details{
+    padding: 5%;
+}
+.aboutme-details p{
+    font-size: 18px;
+}
+.aboutme-details h1{
+    margin-bottom: 2%;
 }
